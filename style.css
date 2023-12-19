@@ -1,0 +1,116 @@
+*{
+    font-family: Arial;
+    margin : 0px;
+    border:border-box;
+}
+
+.navbar{
+    height: 100px;
+    background-color: #800000;
+    text-align: center;
+    display:flex;
+    justify-content: stretch;
+}
+
+.nav-logo{
+    color: #F5CCA0;
+    font-weight: bold;
+    height : 100%;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    margin-left: 10px;
+}
+.nav-logo:hover{
+   color:#800000;
+   transition:all 0.5s fade out;
+}
+#about-name{
+    color: chocolate;
+    font-weight: bold;
+    display : inline-block;
+    margin-left: 30px;
+    position:relative;
+    align-items: center;
+    text-align:center;
+    justify-content: center;
+    position: center;
+}
+.about{
+    height:90px;
+    display:flex;
+    text-align: center;
+    align-items:center;
+    font-size: 1rem;
+    background-color: #F5CCA0;
+    justify-content :space-evenly;
+    width:100%;
+    position:sticky;
+}
+#contactus{
+    color : #6B240C;
+    font-size: 1rem;
+    text-align:center;
+    align-items:center;
+    justify-content: space-evenly;
+    margin-left: 5px;
+    justify-content: space-evenly;
+}
+.main-section1{
+    background-image:url("image-4.jpeg");
+    height:200px;
+    width: 300px;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 30px;
+}
+main{
+    align-items: center;
+    position: sticky;
+    text-align: center;
+    justify-content: center;
+    font-size:1.6rem;
+    font-weight:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f35590;
+}
+
+.main-section2{
+    background-image:url("image-3.jpg");
+    height:200px;
+    width: 300px;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+.main-section3{
+    background-image:url("image-2.jpeg");
+    height:200px;
+    width: 300px;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+.main-section4{
+    background-image:url("image-1.jpg");
+    height:200px;
+    width: 300px;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 30px;
+}
+footer , .registeration-form{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    color : brown;
+}

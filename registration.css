@@ -1,0 +1,35 @@
+.register-head{
+    height: 200px;
+    width: 300px;
+    background-color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding-top:10px;
+    margin:100px;    
+    padding-bottom: 2px;
+}
+.submit-btn{
+    color: aliceblue;
+    background-color:green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    justify-content:space-evenly;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+input{
+    background-color: blue;
+    color: black;
+    font-weight: 700px;
+    font-size: 1rem;
+    justify-content:space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    text-align: center;
+
+}
